@@ -48,11 +48,5 @@ public class Player : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         healthBar.SetHealth(currentHealth);
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.TryGetComponent<IDamager>(out var damager))
-        {
-            damager.Damage();
-        }
-    }
+    
 }
