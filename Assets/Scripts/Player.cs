@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField]private float moveSpeed = 120.0f;
 
-    [SerializeField] private HealthUI healthBar;
+    [SerializeField] private UIManager uiManager;
     private Rigidbody2D rb;
 
     private Vector2 moveInput;
@@ -17,11 +17,12 @@ public class Player : MonoBehaviour
 
     public float maxHealth = 20f;
     public float currentHealth = 20f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        healthBar.SetMaxHealth(maxHealth);
-        healthBar.currentHealth = maxHealth;
+        uiManager.SetMaxHealth(maxHealth);
+        uiManager.currentHealth = maxHealth;
     }
     private void Start()
     {
@@ -46,7 +47,7 @@ public class Player : MonoBehaviour
     {
         currentHealth += healthChange;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-        healthBar.SetHealth(currentHealth);
+        uiManager.SetHealth(currentHealth);
     }
     
 }

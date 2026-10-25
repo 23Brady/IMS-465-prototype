@@ -4,11 +4,14 @@ public class ProjectileOne : MonoBehaviour, IDamager
 {
     [SerializeField] private float speed = 5f;
     private float damage = -1f;
+    private float tpValue = 1f;
     private Player player;
+    private UIManager uiManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player = GameObject.Find("Player").GetComponent<Player>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        uiManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
     }
     void Update()
     {
@@ -35,5 +38,13 @@ public class ProjectileOne : MonoBehaviour, IDamager
     public void Damage()
     {
         DealDamage();
+    }
+    public void GainTP()
+    {
+        GiveTP();
+    }
+    private void GiveTP()
+    {
+        uiManager.SetTP(tpValue);
     }
 }

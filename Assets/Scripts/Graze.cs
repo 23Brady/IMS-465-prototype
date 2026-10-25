@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Graze : MonoBehaviour
 {
-    [SerializeField] private TPUI TPBar;
+    [SerializeField] private UIManager uiManager;
     [SerializeField] private GameObject ring;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,7 +20,7 @@ public class Graze : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent<IDamager>(out var damager))
         {
-            TPBar.SetTP(25.0f);
+            damager.GainTP();
             ring.SetActive(true);
             StartCoroutine(Hide());
             
