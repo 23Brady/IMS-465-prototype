@@ -12,16 +12,28 @@ public class Spawner : MonoBehaviour
 
     private int[] spawnPoints = { 1, 2, 3, 4};
     private int[] projectiles = { 1, 2 };
+
+    BattleManager battleManager;
+    private bool ranOnce = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        StartCoroutine(ChangePos());
+        battleManager = GameObject.FindGameObjectWithTag("BattleManager").GetComponent<BattleManager>();
+        //make singleton at some point
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (battleManager.EnemyTurn && ranOnce == false)
+        {
+            StartCoroutine(ChangePos());
+            ranOnce = true;
+        }
+        else if (battleManager.EnemyTurn == false)
+        {
+            transform.position = new Vector3 (13, -9, 0);
+        }
     }
 
     IEnumerator ChangePos()
@@ -82,6 +94,14 @@ public class Spawner : MonoBehaviour
             }
         }
         yield return new WaitForSeconds(1f);
-        StartCoroutine(ChangePos());
+        if(battleManager.EnemyTurn == true)
+        {
+            StartCoroutine(ChangePos());
+        }
+        else
+        {
+            ranOnce = false;
+        }
+        
     }
 }

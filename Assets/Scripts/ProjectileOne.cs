@@ -5,21 +5,17 @@ public class ProjectileOne : MonoBehaviour, IDamager
     [SerializeField] private float speed = 5f;
     private float damage = -1f;
     private float tpValue = 1f;
-    private Player player;
     private UIManager uiManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        
         uiManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
+        //make singleton at some point
     }
     void Update()
     {
-        if(Mathf.Abs(transform.position.x) >= 15)
-        {
-            Destroy(gameObject);
-        }
-        if(Mathf.Abs(transform.position.y) >= 7)
+        if(Mathf.Abs(transform.position.x) >= 15 || Mathf.Abs(transform.position.y) >= 10 || Player.instance.isPlayerTurn == true)
         {
             Destroy(gameObject);
         }
@@ -32,7 +28,7 @@ public class ProjectileOne : MonoBehaviour, IDamager
 
     public void DealDamage()
     {
-        player.SetHealth(damage);
+        Player.instance.SetHealth(damage);
         Destroy(gameObject);
     }
     public void Damage()
