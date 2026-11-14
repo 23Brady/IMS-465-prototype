@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 165021539}
   - component: {fileID: 165021538}
   m_Layer: 5
-  m_Name: Act
+  m_Name: Magic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -580,13 +580,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+    m_SelectOnLeft: {fileID: 1953470817}
+    m_SelectOnRight: {fileID: 2011524077}
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -596,9 +596,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -9005782035727076640, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -9005782035727076640, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -9005782035727076640, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -631,7 +631,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8350210689148460462, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+  m_Sprite: {fileID: -5740961182042262179, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -779,13 +779,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+    m_SelectOnLeft: {fileID: 835413189}
+    m_SelectOnRight: {fileID: 1953470817}
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -795,9 +795,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -1842243039273869196, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -1842243039273869196, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -1842243039273869196, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -1259,7 +1259,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 866721627}
     m_SelectOnRight: {fileID: 762482280}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1269,9 +1269,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -8515382948888743101, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -8515382948888743101, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -8515382948888743101, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2045,7 +2045,7 @@ GameObject:
   - component: {fileID: 756440469}
   - component: {fileID: 756440468}
   m_Layer: 5
-  m_Name: Act
+  m_Name: Magic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2083,13 +2083,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+    m_SelectOnLeft: {fileID: 1085508360}
+    m_SelectOnRight: {fileID: 1293765952}
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2099,9 +2099,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -9005782035727076640, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -9005782035727076640, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -9005782035727076640, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2134,7 +2134,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8350210689148460462, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+  m_Sprite: {fileID: -5740961182042262179, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2209,7 +2209,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 464075374}
     m_SelectOnRight: {fileID: 1945609485}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2219,9 +2219,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 8282088601124708045, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: 8282088601124708045, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: 8282088601124708045, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2323,13 +2323,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+    m_SelectOnLeft: {fileID: 2011524077}
+    m_SelectOnRight: {fileID: 203307856}
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2339,9 +2339,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 8282088601124708045, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: 8282088601124708045, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: 8282088601124708045, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2449,7 +2449,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 2109225948}
     m_SelectOnRight: {fileID: 464075374}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2459,9 +2459,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 2269296383512098077, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: 2269296383512098077, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: 2269296383512098077, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2554,7 +2554,13 @@ MonoBehaviour:
   slider: {fileID: 1039121226}
   kTophalf: {fileID: 293797147}
   kBorder: {fileID: 80168374}
-  fight: {fileID: 2109225948}
+  kFight: {fileID: 2109225948}
+  sTopHalf: {fileID: 1706258393}
+  sBorder: {fileID: 1108249704}
+  sFight: {fileID: 1953470817}
+  rTopHalf: {fileID: 616077950}
+  rBorder: {fileID: 1905920640}
+  rFight: {fileID: 1085508360}
   choice: 0
 --- !u!4 &881511601
 Transform:
@@ -3267,13 +3273,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+    m_SelectOnLeft: {fileID: 1121317807}
+    m_SelectOnRight: {fileID: 756440468}
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -3283,9 +3289,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -5040743334811131027, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -5040743334811131027, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -5040743334811131027, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -3722,13 +3728,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+    m_SelectOnLeft: {fileID: 1826571902}
+    m_SelectOnRight: {fileID: 1085508360}
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -3738,9 +3744,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -1842243039273869196, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -1842243039273869196, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -1842243039273869196, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -4134,13 +4140,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+    m_SelectOnLeft: {fileID: 756440468}
+    m_SelectOnRight: {fileID: 1826571902}
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -4150,9 +4156,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -8515382948888743101, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -8515382948888743101, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -8515382948888743101, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -5548,13 +5554,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+    m_SelectOnLeft: {fileID: 1293765952}
+    m_SelectOnRight: {fileID: 1121317807}
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -5564,9 +5570,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 8282088601124708045, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: 8282088601124708045, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: 8282088601124708045, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -5872,7 +5878,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 762482280}
     m_SelectOnRight: {fileID: 2109225948}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -5882,9 +5888,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -1842243039273869196, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -1842243039273869196, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -1842243039273869196, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -5986,13 +5992,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+    m_SelectOnLeft: {fileID: 203307856}
+    m_SelectOnRight: {fileID: 165021538}
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -6002,9 +6008,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -5040743334811131027, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -5040743334811131027, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -5040743334811131027, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -6365,13 +6371,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+    m_SelectOnLeft: {fileID: 165021538}
+    m_SelectOnRight: {fileID: 835413189}
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -6381,9 +6387,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -8515382948888743101, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -8515382948888743101, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -8515382948888743101, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -6642,7 +6648,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 1945609485}
     m_SelectOnRight: {fileID: 866721627}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -6652,9 +6658,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -5040743334811131027, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_PressedSprite: {fileID: -5040743334811131027, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
+    m_SelectedSprite: {fileID: -5040743334811131027, guid: 69e232dece9302b4789f98e4b381980b, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal

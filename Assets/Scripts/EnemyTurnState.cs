@@ -13,6 +13,7 @@ public class EnemyTurnState : State
     }
     public override void Enter()
     {
+        UIManager.instance.ResetR();
         timer = 0.0f;
         battleManager.EnemyTurn = true;
         battleManager.battleBox.SetActive(true);

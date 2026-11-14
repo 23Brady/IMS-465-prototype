@@ -4,8 +4,6 @@ using UnityEngine;
 public class PlayerTurnKState: State
 {
     private BattleManager battleManager;
-    private float timer;
-    private float duration = 3.0f;
     public PlayerTurnKState(BattleStateMachine stateMachine, BattleManager battleManager)
     {
         Machine = stateMachine;
@@ -13,8 +11,6 @@ public class PlayerTurnKState: State
     }
     public override void Enter()
     {
-        Debug.Log("Entered player state");
-        timer = 0.0f;
         Player.instance.PlayerTurn();
         UIManager.instance.KTurn();
     }
@@ -23,7 +19,7 @@ public class PlayerTurnKState: State
         
         if (UIManager.instance.choice == true)
         {
-            Machine.ChangeState(new EnemyTurnState(Machine, battleManager));
+            Machine.ChangeState(new PlayerTurnSState(Machine, battleManager));
         }
     }
     public override void Exit()

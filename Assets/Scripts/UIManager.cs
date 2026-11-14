@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -20,10 +21,20 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI TPDisplay;
     [SerializeField] private Image TPBar;
     [SerializeField] private Slider slider;
+
+    //party stuff
     [SerializeField] private RectTransform kTophalf;
     [SerializeField] private GameObject kBorder;
-    [SerializeField] private Button fight;
+    [SerializeField] private Button kFight;
+    [SerializeField] private RectTransform sTopHalf;
+    [SerializeField] private GameObject sBorder;
+    [SerializeField] private Button sFight;
+    [SerializeField] private RectTransform rTopHalf;
+    [SerializeField] private GameObject rBorder;
+    [SerializeField] private Button rFight;
     public bool choice = false;
+
+
 
     private void Awake()
     {
@@ -62,15 +73,51 @@ public class UIManager : MonoBehaviour
     }    
     public void KTurn()
     {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(kFight.gameObject);
         kTophalf.offsetMin = new Vector2(2, 93);
         kTophalf.offsetMax = new Vector2(-2, 83);
         kBorder.SetActive(true);
-        fight.onClick.AddListener(Choice);
+        kFight.onClick.AddListener(Choice);
+    }
+    public void STurn()
+    {
+        kTophalf.offsetMin = new Vector2(2, 2);
+        kTophalf.offsetMax = new Vector2(-2, -2);
+        kBorder.SetActive(false);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(sFight.gameObject);
+        sTopHalf.offsetMin = new Vector2(2, 93);
+        sTopHalf.offsetMax = new Vector2(-2, 83);
+        sBorder.SetActive(true);
+        sFight.onClick.AddListener(Choice);
+
+    }
+    public void RTurn()
+    {
+        sTopHalf.offsetMin = new Vector2(2, 2);
+        sTopHalf.offsetMax = new Vector2(-2, -2);
+        sBorder.SetActive(false);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(rFight.gameObject);
+        rTopHalf.offsetMin = new Vector2(2, 93);
+        rTopHalf.offsetMax = new Vector2(-2, 83);
+        rBorder.SetActive(true);
+        rFight.onClick.AddListener(Choice);
+    }
+    public void ResetR()
+    {
+        rTopHalf.offsetMin = new Vector2(2, 2);
+        rTopHalf.offsetMax = new Vector2(-2, -2);
+        rBorder.SetActive(false);
     }
     public void Choice()
     {
         choice = true;
-        fight.onClick.RemoveListener(Choice);
+        kFight.onClick.RemoveListener(Choice);
+        sFight.onClick.RemoveListener(Choice);
+        rFight.onClick.RemoveListener(Choice);
     }
+    
     
 }
